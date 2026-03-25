@@ -35,59 +35,104 @@ This project demonstrates how business intelligence and automation can be combin
 
 🧩 Features
 
-✅ Generate dataset of 200–300 companies
+-✅ Generate dataset of 200–300 companies
+
 ✅ Rank companies by total sales
+
 ✅ Create Top-N priority list (default: Top 50)
+
 ✅ Export results (CSV / Excel)
+
 ✅ Automated email system
+
 ✅ User-defined email content
+
 ✅ Fully compatible with Google Colab
 
 ⚙️ Tech Stack
 Python
+
 Pandas
+
 SMTP (Email Automation)
+
 Google Colab
+
+
 🏗️ Project Architecture
                Data Generation → Data Processing → Ranking → Priority Selection → Storage → Email Automation
+
+               
 📊 Workflow
+
+
 Generate or collect company sales data
+
 Sort and rank companies by sales
+
 Extract top 50 companies
+
 Save priority list
+
 Send automated emails to selected companies
+
 🖥️ Installation & Usage
+
 1. Clone the Repository
+   
 2. Run in Google Colab
-Open the notebook in Colab
-Run all cells step-by-step
-3. Provide Inputs
+   
+3. Open the notebook in Colab
+
+4. Run all cells step-by-step
+
+5. Provide Inputs
 
 You will be prompted for:
 
 Email Subject
+
 Email Message
+
 Sender Email
+
 App Password
+
 📁 Output
+
 priority_list.csv → Top 50 companies
+
 priority_list.xlsx → Excel version
+
 Automated emails sent to selected companies
+
 ⚠️ Security Notes
+
 Use App Passwords, not your real email password
+
 Do not expose credentials in code
+
 Consider using environment variables in production
+
 🚀 Future Improvements
+
+
 📥 Real email parsing using IMAP
 🤖 AI-based data extraction (via OpenAI APIs)
 ☁️ Cloud deployment (AWS / GCP)
 📊 Dashboard integration
 ⏱️ Scheduled automation
+
+
 💡 Use Cases
+
+
 Corporate performance tracking
 Sales analytics automation
 Multi-branch business management
 Executive reporting systems
+
+
 👤 Author
 
 Md Mofid Umar (Developer)
