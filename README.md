@@ -5,7 +5,8 @@ Automated Python system to generate, rank, and analyze sales data from multiple 
 An end-to-end Python automation pipeline that simulates, analyzes, ranks, and communicates with top-performing sub-companies based on sales data.
 
 🚀 Overview
-Problem Statement: 
+
+
 Managing and evaluating the performance of hundreds of sub-companies manually is inefficient and error-prone.
 
 In large organizations, sub-companies regularly report their sales data via email or other channels. Identifying top-performing companies, prioritizing them, and communicating recognition requires significant manual effort.
@@ -21,6 +22,8 @@ The goal is to build a fully automated, scalable system that reduces manual inte
 
 
 Solution :-
+
+
 AutoSalesRanker is designed for organizations managing multiple sub-companies. It automates the process of:
 
 Generating or ingesting company sales data
