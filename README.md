@@ -49,40 +49,7 @@ Pandas
 SMTP (Email Automation)
 Google Colab
 🏗️ Project Architecture
-                +----------------------+
-                |   Data Generation    |
-                | (Simulated Companies)|
-                +----------+-----------+
-                           |
-                           v
-                +----------------------+
-                |   Data Processing    |
-                |  (Cleaning/Struct.)  |
-                +----------+-----------+
-                           |
-                           v
-                +----------------------+
-                |   Ranking Engine     |
-                | (Sort by Sales)      |
-                +----------+-----------+
-                           |
-                           v
-                +----------------------+
-                |  Priority Selector   |
-                |   (Top 50 Filter)    |
-                +----------+-----------+
-                           |
-                           v
-                +----------------------+
-                |   Data Storage       |
-                | (CSV / Excel Output) |
-                +----------+-----------+
-                           |
-                           v
-                +----------------------+
-                | Email Automation     |
-                | (SMTP आधारित system) |
-                +----------------------+
+               Data Generation → Data Processing → Ranking → Priority Selection → Storage → Email Automation
 📊 Workflow
 Generate or collect company sales data
 Sort and rank companies by sales
@@ -91,8 +58,6 @@ Save priority list
 Send automated emails to selected companies
 🖥️ Installation & Usage
 1. Clone the Repository
-git clone https://github.com/your-username/AutoSalesRanker.git
-cd AutoSalesRanker
 2. Run in Google Colab
 Open the notebook in Colab
 Run all cells step-by-step
